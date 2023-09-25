@@ -63,5 +63,5 @@ class MyPlugin(PMPlugin):
 
 def setup(*args, **kwargs):
     """Called to load plugin - MUST RETURN PLUGIN CLASS"""
-    return PM(*args, **kwargs)
+    return MyPlugin(*args, **kwargs)
 
